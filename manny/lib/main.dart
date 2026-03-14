@@ -13,15 +13,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: const Color.fromARGB(255, 116, 182, 236),
-        body: const Center(
+        body: Center(
           child: SizedBox(
             height: 300,
             width: 300,
             child: Container(
-              decoration: BoxDecoration(
-                color: Colors.green,
-              ),
-              child: Padding(
+              color: Colors.green,
+              child: const Padding(
                 padding: EdgeInsets.all(25),
                 child: Text("Manny"),
               ),
