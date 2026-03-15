@@ -5,8 +5,16 @@ class FirstPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('This is the First Page')),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('First Page'),
+      ),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {},
+          child: const Text('Go to Second Page'),
+        ),
+      ),
     );
   }
 }
