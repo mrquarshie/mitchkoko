@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'pages/first_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,23 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 116, 182, 236),
-        body: Center(
-          child: SizedBox(
-            height: 300,
-            width: 300,
-            child: Container(
-              color: const Color.fromARGB(255, 76, 144, 175),
-              child: const Padding(
-                padding: EdgeInsets.all(25),
-                child: Text("Manny"),
-              ),
-            ),
-          ),
-        ),
-      ),
+      home: FirstPage(),
     );
   }
 }
+
 
