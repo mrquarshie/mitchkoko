@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Second Page'),
+        title: const Text('Home Page'),
         backgroundColor: Colors.blue,
       ),
       body: const Center(
-        child: Text('Welcome to Second Page'),
+        child: Text('Welcome to Home Page'),
       ),
     );
   }
